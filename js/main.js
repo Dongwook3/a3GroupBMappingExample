@@ -6,8 +6,8 @@
 		geocodeButton = document.querySelector('.geocode'),
 
 		// directions services (draw a route on a map)
-		directionService = new google.maps.DirectionsService(),
-		directionDisplay,
+		directionsService = new google.maps.DirectionsService(),
+		directionsDisplay,
 		locations = [],
 
 		marker;
